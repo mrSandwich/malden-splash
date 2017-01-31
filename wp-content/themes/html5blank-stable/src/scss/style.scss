@@ -1,5 +1,6 @@
 @import 'includes/normalize.scss';
 @import 'includes/fontface.scss';
+@import 'includes/slick.scss';
 
 /*------------------------------------*\
     MAIN
@@ -38,11 +39,7 @@ img {
 	vertical-align:bottom;
 }
 a {
-	color:#444;
-	text-decoration:none;
-}
-a:hover {
-	color:#444;
+	text-decoration: none;
 }
 a:focus {
 	outline:0;
@@ -53,7 +50,7 @@ a:active {
 }
 input:focus {
 	outline:0;
-	border:1px solid #04A4CC;
+	border:0;
 }
 
 /*------------------------------------*\
@@ -62,26 +59,35 @@ input:focus {
 
 /* wrapper */
 .wrapper {
-	max-width:1280px;
-	width:95%;
+	max-width:1920px;
 	margin:0 auto;
 	position:relative;
 }
 /* header */
 .header {
 	.slide-item {
+		position: relative;
 		.branding-hero {
-
+			position: absolute;
+			width: 65%;
+			margin: 24px 0 0 39px;
 			.logo {
 				width: 375px;
 				height: 95px;
+				margin-bottom: 143px;
 			}
+
 
 			&.light-bg {
 				color: #000;
 				.logo {
 					background: url('../../img/logos/jag_black.svg') no-repeat;
 				}
+				.cta {
+					border: 5px solid #000;
+					color: #000;
+				}
+
 			}
 
 			&.dark-bg {
@@ -89,37 +95,122 @@ input:focus {
 				.logo {
 					background: url('../../img/logos/jag_white.svg') no-repeat;
 				}
+				.cta {
+					border: 5px solid #fff;
+					color: #fff;
+				}
+
 			}
 
 			span {
 				font: 35px NeuzeitGro;
-			}
-			h1 {
-				font: 90px NeuzeitGroBold;
 				text-transform: uppercase;
 			}
+			h2 {
+				font: 90px NeuzeitGroBold;
+				line-height: 83px;
+				text-transform: uppercase;
+				margin: 29px 0 6px;
+			}
 			p {
+				font: 42px/50px 'EB Garamond';
+				margin: 0;
+				&:last-of-type {
+					margin-top: 15px;
+				}
+			}
+			.cta {
+				font: 24px NeuzeitGro;
+			    text-transform: uppercase;
+			    width: 253px;
+			    display: block;
+			    text-align: center;
+			    padding: 5px 0;
+			    margin-top: 39px;
+			}
+		}
+		img {
 
+
+		}
+	}
+
+	.slick-dots {
+		position: absolute;
+		right: 25px;
+		top: 50%;
+		margin-top: -92px;
+		li {
+			list-style: none;
+			margin-bottom: 20px;
+			button {
+				font-size: 0;
+			    line-height: 0;
+			    display: block;
+			    width: 20px;
+			    height: 20px;
+			    padding: 5px;
+			    cursor: pointer;
+			    color: transparent;
+			    border: 3px solid #fff;
+			    border-radius: 100%;
+			    outline: none;
+			    background: transparent;
+			}
+			&.slick-active {
+				button {
+					background-color: #fff;
+				}
 			}
 		}
 	}
-	
 }
-/* logo */
-.logo {
 
-}
-.logo-img {
+main {
+	color: #fff;
+	font: 24px 'NeuzeitGro';
+	padding: 0 40px;
+	.main-cta {
+		width: 100%;
+		text-align: center;
+		padding-top: 17px;
+		a {
+			font: 50px NeuzeitGroBold;
+			text-transform: uppercase;
+			display: inline-block;
+			margin: 0 auto;
+			color: #fff;
+			&:after {
+				display: block;
+				content: url('../../img/elements/downarrow.svg');
+				margin-top: -9px;
+			}
+		}
+	}
+	.content-container {
+		display: flex;
+		section {
+			flex-direction: row;
+			flex-grow: 1;
+		}
+	}
+	.copy {
 
-}
-/* nav */
-.nav {
+		.features {
+			list-style: none;
+			padding: 0;
+		}
 
-}
-/* sidebar */
-.sidebar {
+		em {
+			font: 24px 'NeuzeitGroBold';
+			text-transform: uppercase;
+		}
 
+	}
 }
+
+
+
 /* footer */
 .footer {
 

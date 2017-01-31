@@ -64,10 +64,20 @@
 
 @font-face {
 	font-family: 'Neuzeit Grotesk';
-	src: url('../../../fonts/NeuzeitGro-Reg_1.eot');
-	src: url('../../../fonts/NeuzeitGro-Reg_1.eot?#iefix') format('embedded-opentype'),
-		url('../../../fonts/NeuzeitGro-Reg_1.woff') format('woff'),
-		url('../../../fonts/NeuzeitGro-Reg_1.ttf') format('truetype');
+	src: url('../../fonts/NeuzeitGro-Reg_1.eot');
+	src: url('../../fonts/NeuzeitGro-Reg_1.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/NeuzeitGro-Reg_1.woff') format('woff'),
+		url('../../fonts/NeuzeitGro-Reg_1.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'EB Garamond';
+	src: url('../../fonts/EBGaramond.eot');
+	src: url('../../fonts/EBGaramond.eot?#iefix') format('embedded-opentype'),
+		url('../../fonts/EBGaramond.woff') format('woff'),
+		url('../../fonts/EBGaramond.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
