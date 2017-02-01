@@ -65,7 +65,7 @@
 							</div>
 							<!-- /logo -->
 							<span>Arriving 2019</span>
-							<h2>Live Easy, Commute Easier</h2>
+							<h2>Live Easy,<br> Commute Easier</h2>
 							<p>100 steps to the T.</p>
 							<p>15 minutes to Boston.</p>
 							<a class="cta" href="">Stay In Touch</a>
