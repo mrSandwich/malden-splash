@@ -7,8 +7,8 @@
 				Keep Me Updated!
 			</a>
 		</div>
-		<div class="content-container">
-			<section class="copy">
+		<section class="content-container">
+			<div class="copy">
 			<ul class="features">
 				<li>320 deluxe apartments</li>
 				<li>Ground floor retail</li>
@@ -21,8 +21,8 @@
 				<em>Located to make life easier</em><br>
 				Malden Center out the front door, the MBTA Orange Line and commuter rail across the street, and direct access to downtown Boston-enjoy!
 			</p>
-			</section>
-			<section class="form-area">
+			</div>
+			<div class="form-area">
 				<form id="user-form">
 					
 					<ul>
@@ -62,9 +62,14 @@
 
 				</form>
 				
-			</section>
-			<!-- /section -->
-		</div>
+			</div>
+		</section>
+		<section class="map-container">
+			<div id="map">
+				
+			</div>
+			
+		</section>
 	</main>
 
 

@@ -33,7 +33,7 @@
 
 				<div class="slider">
 
-					<div class="slide-item">
+					<div class="slide-item first-slide">
 
 						<div class="branding-hero dark-bg">
 
