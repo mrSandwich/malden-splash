@@ -85,7 +85,7 @@
 							</div>
 							<!-- /logo -->
 							<span>Arriving 2019</span>
-							<h2>A new center of gravity.</h2>
+							<h2>A new center <br>of gravity.</h2>
 							<p>Making Pleasant Street more pleasant.</p>
 							<a class="cta" href="">Stay In Touch</a>
 
