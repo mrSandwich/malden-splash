@@ -90,13 +90,17 @@ ul {
 	.slide-item {
 		position: relative;
 		.branding-hero {
-			position: absolute;
 			width: 65%;
 			margin: 24px 0 0 39px;
+			padding-bottom: 18%;
 			.logo {
 				width: 375px;
 				height: 95px;
 				margin-bottom: 143px;
+			}
+			.cta {
+				border-width: 5px;
+				border-style: solid;
 			}
 
 
@@ -107,7 +111,7 @@ ul {
 					background-size: cover;
 				}
 				.cta {
-					border: 5px solid #000;
+					border-color: #000;
 					color: #000;
 				}
 
@@ -120,7 +124,7 @@ ul {
 					background-size: cover;
 				}
 				.cta {
-					border: 5px solid #fff;
+					border-color: #fff;
 					color: #fff;
 				}
 
@@ -156,6 +160,22 @@ ul {
 
 		&.first-slide {
 			background: url('../../img/slides/mask.jpg') no-repeat;
+			background-size: cover;
+		}
+		&.second-slide {
+			background: url('../../img/slides/train.jpg') no-repeat;
+			background-size: cover;
+		}
+		&.third-slide {
+			background: url('../../img/slides/render.jpg') no-repeat;
+			background-size: cover;
+		}
+		&.fourth-slide {
+			background: url('../../img/slides/pool.jpg') no-repeat;
+			background-size: cover;
+		}
+		&.fifth-slide {
+			background: url('../../img/slides/stretch.jpg') no-repeat;
 			background-size: cover;
 		}
 	}
@@ -369,34 +389,48 @@ main {
 	.header {
 		.slide-item {
 			.branding-hero {
+				margin: 38px 0 0 44px;
+				width: 100%;
 				.logo {
-					width: 208px;
-					height: 53px;
+					width: 187px;
+    				height: 48px;
+    				margin-bottom: 215px;
 				}
 				span {
 					font-size: 25px;
 				}
 				h2 {
 					font-size: 60px;
+					line-height: 52px;
+					margin: 10px 0 19px;
 				}
 				p {
 					font-size: 28px;
+					line-height: 36px;
+					&:last-of-type {
+						margin-top: 0;
+					}
 				}
-				.cta {}
+				.cta {
+					border-width: 3px;
+				}
 			}
 
-			&.first-slide {
-				img {
-					-moz-transform: scaleX(-1);
-			        -o-transform: scaleX(-1);
-			        -webkit-transform: scaleX(-1);
-			        transform: scaleX(-1);
-			        filter: FlipH;
-			        -ms-filter: "FlipH";
-				}
-				.branding-hero {
-					z-index: 2;
-				}
+			.slick-dots {
+				right: 50px;
+    			top: 55%;
+    			li {
+    				button {
+    					border-width: 2px;
+    				}
+    			}
+			}
+
+			&.second-slide {
+				 background-position-x: 45%;
+			}
+			&.fourth-slide {
+				background-position-x: 40%;
 			}
 		}
 	}

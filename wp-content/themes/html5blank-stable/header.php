@@ -51,9 +51,9 @@
 							<a class="cta" href="">Stay In Touch</a>
 
 						</div>
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slides/mask.jpg">
+						<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/slides/mask.jpg"> -->
 					</div>
-					<div class="slide-item">
+					<div class="slide-item second-slide">
 
 						<div class="branding-hero dark-bg">
 
@@ -71,9 +71,9 @@
 							<a class="cta" href="">Stay In Touch</a>
 
 						</div>
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slides/train.jpg">
+						<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/slides/train.jpg"> -->
 					</div>
-					<div class="slide-item">
+					<div class="slide-item third-slide">
 
 						<div class="branding-hero light-bg">
 
@@ -90,9 +90,9 @@
 							<a class="cta" href="">Stay In Touch</a>
 
 						</div>
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slides/render.jpg">
+						<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/slides/render.jpg"> -->
 					</div>
-					<div class="slide-item">
+					<div class="slide-item fourth-slide">
 
 						<div class="branding-hero light-bg">
 
@@ -110,9 +110,9 @@
 							<a class="cta" href="">Stay In Touch</a>
 
 						</div>
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slides/pool.jpg">
+						<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/slides/pool.jpg"> -->
 					</div>
-					<div class="slide-item">
+					<div class="slide-item fifth-slide">
 
 						<div class="branding-hero light-bg">
 
@@ -130,7 +130,7 @@
 							<a class="cta" href="">Stay In Touch</a>
 
 						</div>
-						<img src="<?php echo get_template_directory_uri(); ?>/img/slides/stretch.jpg">
+						<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/slides/stretch.jpg"> -->
 					</div>
 				</div> <!-- slider -->
 
