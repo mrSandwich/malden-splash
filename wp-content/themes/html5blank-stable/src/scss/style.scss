@@ -360,8 +360,7 @@ main {
 
 	#map {
 		width: 100%;
-		height: 100%;
-		min-height: 625px;
+		height: 625px;
 	}
 }
 
@@ -369,7 +368,7 @@ main {
 
 /* footer */
 .footer {
-
+	display: none;
 }
 
 /*------------------------------------*\
@@ -390,6 +389,26 @@ main {
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
+@media only screen and (max-width:1350px) {
+
+	main .form-area form fieldset {
+		float: none;
+		margin-top: 5px;
+	}
+
+	main .form-area .form-branding {
+		float: none;
+		margin-top: 20px;
+	}
+}
+@media only screen and (max-width:1280px) {
+
+}
+
+@media only screen and (max-width:1024px) {
+
+}
+
 
 @media only screen and (max-width:768px) {
 	.header {
@@ -465,15 +484,20 @@ main {
 		.copy, .form-area {
 			padding: 0;
 			width: 100%;
-			font-size: 20px;
 		}
 
 		.form-area {
 			order: 1;
+			font-size: 24px;
 			form {
+				padding: 0;
 				ul {
 					margin: 0;
 					padding: 0;
+				}
+
+				fieldset {
+
 				}
 
 				input[type="submit"] {
@@ -485,6 +509,7 @@ main {
 			}
 		}
 		.copy {
+			font-size: 20px;
 			width: 50%;
 			order: 2;
 			margin-top: 39px;
@@ -495,7 +520,154 @@ main {
 				margin-bottom: 0;
 			}
 		}
+
+		#map {
+			height: 539px;
+		}
 	}
+
+	
+
+	.footer {
+		display: block;
+		padding: 30px 50px 50px;
+		img {
+			width: 130px;
+			&:first-of-type {
+				margin-right: 30px;
+			}
+		}
+		span {
+			display: block;
+			font: 18px 'NeuzeitGro';
+			color: #fff;
+		}
+	}
+}
+
+@media only screen and (max-width:735px) {
+
+	.header {
+		.slide-item {
+			.branding-hero {
+				margin: 17px 0 0 20px;
+				padding-bottom: 5%;
+				.logo {
+					height: 24px;
+					width: 95px;
+					margin-bottom: 33px;
+				}
+				h2 {
+					font-size: 50px;
+					line-height: 39px;
+   					 margin: 18px 0 19px;		
+				}
+				p {
+					font-size: 24px;
+					line-height: 31px;
+				}
+				.cta {
+					display: none;
+				}
+			}
+
+
+			&.second-slide {
+				
+			}
+			&.third-slide {
+
+			}
+			&.fourth-slide {
+				
+			}
+		}
+
+		.slick-dots {
+			right: 18px;
+    		top: 56%;
+			li {
+				button {
+					width: 1px;
+					height: 1px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+	}
+	main {
+		padding: 18px 25px 0;
+		.main-cta {
+			text-align: left;
+			a {
+				font-size: 35px;
+				&:after {
+					display: none;
+				}
+			}
+		}
+		.content-container {
+			flex-direction: column;
+			padding-top: 0;
+			margin-bottom: 80px;
+		}
+		.copy, .form-area {
+			
+		}
+
+		.form-area {
+			order: 1;
+			font-size: 16px;
+			li {
+				padding: 31px 0 3px;
+				&:first-of-type {
+					padding-top: 25px
+				}
+			}
+			form {
+				fieldset {
+					float: none;
+					margin-top: 5px;
+					label:first-of-type {
+						margin-right: 18px;
+					}
+				}
+				input[type="radio"] {
+					width: 10px;
+    				height: 10px;
+    				border-width: 2px;
+    				margin-right: 9px;
+				}
+				    
+
+				input[type="submit"] {
+					width: 170px;
+				}
+
+				select {
+					position: absolute;
+    				right: 26px;
+				}
+			}
+		}
+		.copy {
+			width: 100%;
+			font-size: 18px;
+			margin-top: 53px;
+			.featues {
+				margin-top: 50px;
+			}
+		}
+
+		#map {
+			height: 260px;
+		}
+	}
+	.footer {
+		padding: 25px 25px 50px;
+	}
+
 }
 
 @media only screen and (min-width:320px) {
@@ -505,15 +677,11 @@ main {
 
 }
 
-@media only screen and (min-width:1024px) {
 
-}
 @media only screen and (min-width:1140px) {
 
 }
-@media only screen and (min-width:1280px) {
 
-}
 @media only screen and (-webkit-min-device-pixel-ratio:1.5),
 	   only screen and (min-resolution:144dpi) {
 

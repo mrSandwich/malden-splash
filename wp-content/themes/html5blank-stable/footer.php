@@ -1,11 +1,9 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 
-				<!-- copyright -->
-				<p class="copyright">
-					
-				</p>
-				<!-- /copyright -->
+				<span>A project of: </span>
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/jag_white.svg">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/nwm_white.svg">
 
 			</footer>
 			<!-- /footer -->
