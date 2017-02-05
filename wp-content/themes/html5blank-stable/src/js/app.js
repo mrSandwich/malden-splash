@@ -19,7 +19,8 @@
   				arrows: false
 			});
 
-			this.initClickHandlers()
+			this.initClickHandlers();
+			this.revealHiddenField();
 
 		},
 		initClickHandlers: function() {
@@ -31,6 +32,20 @@
 				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: dest}, 500 );
 			});
 
+		}, 
+		revealHiddenField: function() {
+
+			var form = document.getElementById("user-form"),
+				select = form.querySelectorAll('select')[0],
+				hidden = document.getElementsByClassName('hidden-field')[0];
+
+			$(form).on('change', function() {
+				if (select.value === "social media" || select.value === "referral" || select.value === "other") {
+					hidden.style.display = 'block';
+				} else {
+					hidden.style.display = 'none';
+				}
+			});
 		}
 	}
 
