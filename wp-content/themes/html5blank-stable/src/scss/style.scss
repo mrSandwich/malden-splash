@@ -170,8 +170,8 @@ ul {
 		&.third-slide {
 			background: url('../../img/slides/render.jpg') no-repeat;
 			background-size: cover;
-			br {
-				display: none;
+			.hidden-p {
+				color: transparent;
 			}
 		}
 		&.fourth-slide {

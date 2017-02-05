@@ -88,6 +88,7 @@
 							<h2>A new center <br>of gravity.</h2>
 							<p>Making Pleasant Street more pleasant.</p>
 							<a class="cta" href="">Stay In Touch</a>
+							<p class="hidden-p">hidden</p>
 
 						</div>
 						<!-- <img src="<?php echo get_template_directory_uri(); ?>/img/slides/render.jpg"> -->
@@ -104,7 +105,7 @@
 							</div>
 							<!-- /logo -->
 							<span>Arriving 2019</span>
-							<h2>More Happy Time</h2>
+							<h2>More Happy<br> Time</h2>
 							<p>All of the amenities.</p>
 							<p>None of the attitude.</p>
 							<a class="cta" href="">Stay In Touch</a>
@@ -124,7 +125,7 @@
 							</div>
 							<!-- /logo -->
 							<span>Arriving 2019</span>
-							<h2>Room to stretch.</h2>
+							<h2>Space to <br>stretch.</h2>
 							<p>3000 square feet of custon amenities.</p>
 							<p>None of the attitude.</p>
 							<a class="cta" href="">Stay In Touch</a>
