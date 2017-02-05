@@ -268,6 +268,9 @@ main {
 			&:last-of-type {
 				border-bottom: 0;
 			}
+			&.hidden-field {
+				display: none;
+			}
 
 			&.select-item {
 				display: table;
@@ -322,7 +325,7 @@ main {
 				border: 3px solid #fff;
 				padding: 5px 0;
 			}
-			select {
+			select, select option {
 				-webkit-appearance: none;
     			-moz-appearance: none;
     			outline: none;
@@ -331,14 +334,10 @@ main {
 				display: table-cell;
 				width: 100%;
 				border: 0;
+				color: #fff;
 				
 			}
 
-			select > option {
-				background-color: #000;
-				font-size: inherit;
-				color: #fff;
-			}
 
 		}
 		.form-branding {
@@ -441,6 +440,10 @@ main {
 				}
 			}
 
+			&.first-slide {
+				background: url('../../img/slides/mask_rev.jpg') no-repeat;
+				background-size: cover;
+			}
 
 			&.second-slide {
 				 background-position-x: 45%;
@@ -692,18 +695,18 @@ main {
 \*------------------------------------*/
 
 ::selection {
-	background:#04A4CC;
-	color:#FFF;
+	background:#fff;
+	color:#000;
 	text-shadow:none;
 }
 ::-webkit-selection {
-	background:#04A4CC;
-	color:#FFF;
+	background:#fff;
+	color:#000;
 	text-shadow:none;
 }
 ::-moz-selection {
-	background:#04A4CC;
-	color:#FFF;
+	background:#fff;
+	color:#000;
 	text-shadow:none;
 }
 

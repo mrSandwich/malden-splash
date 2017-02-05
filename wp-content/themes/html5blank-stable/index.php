@@ -44,12 +44,21 @@
 						</li>
 						<li class="select-item">
 							<label for="select">How did you hear about us?</label>
-							<select name="select">
+							<select name="select" style="background-color:#000;" >
 								<option value="null" selected></option> 
-							  	<option value="value2">Value 2</option>
-							  	<option value="value3">Value 3</option>
+							  	<option value="drive/walk by">Drove/walked/biked by the site</option>
+							  	<option value="word of mouth">Word of mouth</option>
+							  	<option value="social media">Social Media</option>
+							  	<option value="referral">Referral</option>
+							  	<option value="online search">Online search</option>
+							  	<option value="news article">News Article</option>
+							  	<option value="other">Other</option>
 							</select>
 						</li>
+						<li class="hidden-field">
+							<input type="text" name="specify" placeholder="Please specify">
+						</li>
+
 						<li>
 							<input type="submit" name="form-submit" value="submit">
 							<div class="form-branding">

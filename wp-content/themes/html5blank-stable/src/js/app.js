@@ -19,7 +19,18 @@
   				arrows: false
 			});
 
+			this.initClickHandlers()
+
 		},
+		initClickHandlers: function() {
+
+			$('.cta, .main-cta a').on('click', function(e) {
+				var dest = $(".form-area").offset().top;
+				e.preventDefault();
+
+				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: dest}, 500 );
+			});
+		}
 	}
 
 	JAG.init();

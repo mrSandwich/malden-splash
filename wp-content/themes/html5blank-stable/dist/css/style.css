@@ -683,6 +683,8 @@ main {
       padding: 36px 0 10px; }
       main .form-area li:last-of-type {
         border-bottom: 0; }
+      main .form-area li.hidden-field {
+        display: none; }
       main .form-area li.select-item {
         display: table;
         width: 100%; }
@@ -720,7 +722,7 @@ main {
         width: 225px;
         border: 3px solid #fff;
         padding: 5px 0; }
-      main .form-area form select {
+      main .form-area form select, main .form-area form select option {
         -webkit-appearance: none;
         -moz-appearance: none;
         outline: none;
@@ -728,10 +730,7 @@ main {
         background: url("../../img/elements/formtriangle.svg") 99% 95% no-repeat;
         display: table-cell;
         width: 100%;
-        border: 0; }
-      main .form-area form select > option {
-        background-color: #000;
-        font-size: inherit;
+        border: 0;
         color: #fff; }
     main .form-area .form-branding {
       float: right; }
@@ -789,6 +788,9 @@ main {
         margin-top: 0; }
     .header .slide-item .branding-hero .cta {
       border-width: 3px; }
+  .header .slide-item.first-slide {
+    background: url("../../img/slides/mask_rev.jpg") no-repeat;
+    background-size: cover; }
   .header .slide-item.second-slide {
     background-position-x: 45%; }
   .header .slide-item.third-slide br {
@@ -925,18 +927,18 @@ main {
     MISC
 \*------------------------------------*/
 ::selection {
-  background: #04A4CC;
-  color: #FFF;
+  background: #fff;
+  color: #000;
   text-shadow: none; }
 
 ::-webkit-selection {
-  background: #04A4CC;
-  color: #FFF;
+  background: #fff;
+  color: #000;
   text-shadow: none; }
 
 ::-moz-selection {
-  background: #04A4CC;
-  color: #FFF;
+  background: #fff;
+  color: #000;
   text-shadow: none; }
 
 /*------------------------------------*\
