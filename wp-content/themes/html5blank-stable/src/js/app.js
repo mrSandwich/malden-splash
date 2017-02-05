@@ -30,6 +30,7 @@
 
 				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: dest}, 500 );
 			});
+
 		}
 	}
 

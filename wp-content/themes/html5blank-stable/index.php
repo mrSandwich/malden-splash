@@ -74,9 +74,11 @@
 			</div>
 		</section>
 		<section class="map-container">
-			<div id="map">
-				
-			</div>
+			<a target="_blank" href="https://www.google.com/maps/place/200+Pleasant+St,+Malden,+MA+02148/@42.4269923,-71.0744369,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37160bab040cb:0x2be2982b3a3c30f0!8m2!3d42.4269923!4d-71.0722482">
+				<div id="map">
+					
+				</div>
+			</a>
 			
 		</section>
 	</main>
