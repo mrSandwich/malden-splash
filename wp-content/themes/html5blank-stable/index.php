@@ -23,54 +23,10 @@
 			</p>
 			</div>
 			<div class="form-area">
-				<form id="user-form">
-					
-					<ul>
-						<li>
-							What are you interested in?
-							<fieldset>
-								<label><input type="radio" checked="checked" name="interest" value="residentail">Residential</label>
-								<label><input type="radio" name="interest" value="reyail">Retail</label> 
-							</fieldset>
-						</li>
-						<li>
-							<input type="text" name="firstname"  placeholder="First Name">
-						</li>
-						<li>
-							<input type="text" name="lastname" placeholder="Last Name">
-						</li>
-						<li>
-							<input type="email" name="email" placeholder="Email Address">
-						</li>
-						<li class="select-item">
-							<label for="select">How did you hear about us?</label>
-							<select name="select" style="background-color:#000;" >
-								<option value="null" selected></option> 
-							  	<option value="drive/walk by">Drove/walked/biked by the site</option>
-							  	<option value="word of mouth">Word of mouth</option>
-							  	<option value="social media">Social Media</option>
-							  	<option value="referral">Referral</option>
-							  	<option value="online search">Online search</option>
-							  	<option value="news article">News Article</option>
-							  	<option value="other">Other</option>
-							</select>
-						</li>
-						<li class="hidden-field">
-							<input type="text" name="specify" placeholder="Please specify">
-						</li>
-
-						<li>
-							<input type="submit" name="form-submit" value="submit">
-							<div class="form-branding">
-								<span>A project of: </span>
-								<img src="<?php echo get_template_directory_uri(); ?>/img/logos/jag_white.svg">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/logos/nwm_white.svg">
-							</div>
-						</li>
-					</ul>
-
-				</form>
 				
+				<?php echo do_shortcode( '[contact-form-7 id="6" title="Residential Form"]' ); ?>
+
+
 			</div>
 		</section>
 		<section class="map-container">
