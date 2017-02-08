@@ -23,10 +23,17 @@
 			</p>
 			</div>
 			<div class="form-area">
+
+				<div class="form-container residential">
 				
-				<?php echo do_shortcode( '[contact-form-7 id="6" title="Residential Form"]' ); ?>
+					<?php echo do_shortcode( '[contact-form-7 id="6" title="Residential Form"]' ); ?>
 
+				</div>
+				<div class="form-container hidden-form retail">
+				
+					<?php echo do_shortcode( '[contact-form-7 id="7" title="Retail Form"]' ); ?>
 
+				</div>
 			</div>
 		</section>
 		<section class="map-container">

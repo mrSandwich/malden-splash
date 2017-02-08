@@ -25,7 +25,7 @@
 		},
 		initEventHandlers: function() {
 			var _this 	 = this,
-				userForm = document.getElementById('wpcf7-f6-o1');
+				$forms   = $('form');
 
 			$('.cta, .main-cta a').on('click', function(e) {
 				var dest = $(".form-area").offset().top;
@@ -34,12 +34,13 @@
 				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: dest}, 500 );
 			});
 
-			$(userForm).on('change', function() {
+			$forms.on('change', function() {
 
 				_this.revealHiddenField();
 
 			});
 
+			this.switchForms();
 
 		}, 
 		revealHiddenField: function() {
@@ -53,7 +54,25 @@
 				} else {
 					hidden.style.display = 'none';
 				}
+		},
+		switchForms: function() {
+			var radio = $('input[type=radio]'),
+				targ = '',
+				$formParent = $('.form-container');
 
+			$(radio).on('click', function(e) {
+
+				e.preventDefault();
+
+				targ  = '.' + $(this).val().toLowerCase();
+
+				$formParent.addClass('hidden-form');
+
+				if ( $(targ).hasClass('hidden-form')) {
+					$(targ).removeClass('hidden-form');
+				}
+
+			});
 		}
 	}
 

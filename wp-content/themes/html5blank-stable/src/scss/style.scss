@@ -262,6 +262,9 @@ main {
 	.form-area {
 		width: 55%;
 		padding-left: 40px;
+		.hidden-form {
+			display: none;
+		}
 		li {
 			border-bottom: 3px solid #fff;
 			padding: 36px 0 10px;
