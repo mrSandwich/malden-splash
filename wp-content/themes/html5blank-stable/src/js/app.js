@@ -36,17 +36,20 @@
 
 			$forms.on('change', function() {
 
-				_this.revealHiddenField();
+
+				_this.revealHiddenField(this);
 
 			});
 
 			this.switchForms();
 
 		}, 
-		revealHiddenField: function() {
+		revealHiddenField: function(ctx) {
 
-			var select = document.querySelectorAll('select')[0],
-				hidden = document.getElementsByClassName('hidden-field')[0];
+			var select = ctx.querySelectorAll('select')[0],
+				hidden = ctx.getElementsByClassName('hidden-field')[0];
+
+				console.log(ctx);
 
 			
 				if (select.value === "Social Media" || select.value === "Referral" || select.value === "Other") {
