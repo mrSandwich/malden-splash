@@ -25,7 +25,7 @@
 		},
 		initEventHandlers: function() {
 			var _this 	 = this,
-				userForm = document.getElementById('user-form');
+				userForm = document.getElementById('wpcf7-f6-o1');
 
 			$('.cta, .main-cta a').on('click', function(e) {
 				var dest = $(".form-area").offset().top;
@@ -48,7 +48,7 @@
 				hidden = document.getElementsByClassName('hidden-field')[0];
 
 			
-				if (select.value === "social media" || select.value === "referral" || select.value === "other") {
+				if (select.value === "Social Media" || select.value === "Referral" || select.value === "Other") {
 					hidden.style.display = 'block';
 				} else {
 					hidden.style.display = 'none';

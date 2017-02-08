@@ -359,6 +359,7 @@ main {
 				&:last-of-type {
 					margin-left: 23px;
 				}
+
 			}
 		}
 	}
@@ -399,6 +400,18 @@ main {
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
+
+@media only screen and (max-width:1543px) {
+	main {
+		.form-area {
+			.form-branding {
+				img {
+					vertical-align: bottom;
+				}
+			}
+		}
+	}
+}
 @media only screen and (max-width:1350px) {
 
 	main .form-area form fieldset {
