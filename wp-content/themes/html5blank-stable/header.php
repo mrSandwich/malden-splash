@@ -46,7 +46,7 @@
 							<!-- /logo -->
 							<span>Arriving 2019</span>
 							<h2>Malden Center's<br> Next Destination</h2>
-							<p>Big city ammenities.</p>
+							<p>Big city amenities.</p>
 							<p>Neighborhood vibe.</p>
 							<a class="cta" href="">Stay In Touch</a>
 
@@ -65,7 +65,7 @@
 							</div>
 							<!-- /logo -->
 							<span>Arriving 2019</span>
-							<h2>Live Easy,<br> Commute Easier</h2>
+							<h2>Live Easy<br> Commute Easier</h2>
 							<p>100 steps to the T.</p>
 							<p>15 minutes to Boston.</p>
 							<a class="cta" href="">Stay In Touch</a>
@@ -85,7 +85,7 @@
 							</div>
 							<!-- /logo -->
 							<span>Arriving 2019</span>
-							<h2>A new center <br>of gravity.</h2>
+							<h2>A new center <br>of gravity</h2>
 							<p>Making Pleasant Street more pleasant.</p>
 							<a class="cta" href="">Stay In Touch</a>
 							<p class="hidden-p">hidden</p>
@@ -126,7 +126,7 @@
 							<!-- /logo -->
 							<span>Arriving 2019</span>
 							<h2>Space to <br>stretch.</h2>
-							<p>3000 square feet of custon amenities.</p>
+							<p>3000 Square feet of custom amenities.</p>
 							<p>None of the attitude.</p>
 							<a class="cta" href="">Stay In Touch</a>
 
