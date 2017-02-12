@@ -16,7 +16,9 @@
 				slidesToScroll: 1,
 				dots: true,
   				infinite: true,
-  				arrows: false
+  				arrows: false,
+  				autoplay: true,
+  				autoplaySpeed: 4000
 			});
 
 			this.initEventHandlers();
