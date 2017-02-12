@@ -20,7 +20,6 @@
 			});
 
 			this.initEventHandlers();
-			// this.revealHiddenField();
 
 		},
 		initEventHandlers: function() {
@@ -48,8 +47,6 @@
 
 			var select = ctx.querySelectorAll('select')[0],
 				hidden = ctx.getElementsByClassName('hidden-field')[0];
-
-				console.log(ctx);
 
 			
 				if (select.value === "Social Media" || select.value === "Referral" || select.value === "Other") {
