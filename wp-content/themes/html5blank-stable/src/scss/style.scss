@@ -281,6 +281,7 @@ main {
 			border-bottom: 3px solid #fff;
 			padding: 36px 0 10px;
 			&:first-of-type {
+				padding-top: 0;
 				p {
 					display: none;
 				}

@@ -32,7 +32,7 @@
 				var dest = $(".form-area").offset().top;
 				e.preventDefault();
 
-				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: dest}, 500 );
+				$("html:not(:animated),body:not(:animated)").animate({ scrollTop: dest - 50}, 500 );
 			});
 
 			$forms.on('change', function() {
