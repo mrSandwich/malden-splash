@@ -449,7 +449,53 @@ main {
 	}
 }
 @media only screen and (max-width:1280px) {
+	.header {
+		.slide-item {
+			.branding-hero {
+				padding-bottom: 10%;
+				.logo {
+					margin-bottom: 100px;
+				}
+				span {
+					font-size: 30px;
+				}
+				
+				h2 {
+					font-size: 70px;
+					line-height: 59px;
+   					 margin: 18px 0 19px;		
+				}
+				p {
+					font-size: 36px;
+					line-height: 42px;
+				}
+			}
 
+
+			&.second-slide {
+				
+			}
+			&.third-slide {
+
+			}
+			&.fourth-slide {
+				
+			}
+		}
+
+		.slick-dots {
+			right: 18px;
+    		top: 56%;
+			li {
+				button {
+					width: 1px;
+					height: 1px;
+					margin-bottom: 10px;
+				}
+			}
+		}
+
+	}
 }
 
 @media only screen and (max-width:1024px) {
@@ -464,9 +510,9 @@ main {
 				margin: 38px 0 0 44px;
 				width: 100%;
 				.logo {
-					width: 187px;
-    				height: 48px;
-    				margin-bottom: 215px;
+					width: 250px;
+    				height: 63px;
+    				margin-bottom: 200px;
 				}
 				span {
 					font-size: 25px;
@@ -491,6 +537,7 @@ main {
 			&.first-slide {
 				background: url('../../img/slides/mask_rev.jpg') no-repeat;
 				background-size: cover;
+				background-position-x: 38%;
 			}
 
 			&.second-slide {
@@ -604,9 +651,9 @@ main {
 				margin: 17px 0 0 20px;
 				padding-bottom: 5%;
 				.logo {
-					height: 24px;
-					width: 95px;
-					margin-bottom: 33px;
+					height: 38px;
+    				width: 150px;
+    				margin-bottom: 33px;
 				}
 				h2 {
 					font-size: 50px;
@@ -622,6 +669,9 @@ main {
 				}
 			}
 
+			&.first-slide {
+				
+			}
 
 			&.second-slide {
 				
@@ -694,11 +744,6 @@ main {
 
 				input[type="submit"] {
 					width: 170px;
-				}
-
-				select {
-					position: absolute;
-    				right: 26px;
 				}
 			}
 		}
