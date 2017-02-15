@@ -31,6 +31,7 @@
                     scaleControl: false,
                     gestureHandling: "none",
                     scrollwheel: false,
+                    disableDefaultUI: true,
                     // The latitude and longitude to center the map (always required)
                     center: new google.maps.LatLng(42.4269923,-71.0744369),
 
