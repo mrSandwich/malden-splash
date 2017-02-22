@@ -12,7 +12,7 @@
 			<ul class="features">
 				<li>320 deluxe apartments</li>
 				<li>Ground floor retail</li>
-				<li>New City offices</li>
+				<li>New city offices</li>
 				<li>Garage parking</li>
 				<li>Steps to T station</li>
 			</ul>

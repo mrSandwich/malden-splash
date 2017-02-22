@@ -17,8 +17,8 @@
 				dots: true,
   				infinite: true,
   				arrows: false,
-  				// autoplay: true,
-  				autoplaySpeed: 5000
+  				autoplay: true,
+  				autoplaySpeed: 3000
 			});
 
 			this.initEventHandlers();
