@@ -651,6 +651,7 @@ main {
 			.branding-hero {
 				margin: 17px 0 0 20px;
 				padding-bottom: 5%;
+				min-height: 371px;
 				.logo {
 					height: 38px;
     				width: 150px;
@@ -680,8 +681,8 @@ main {
 			&.third-slide {
 
 			}
-			&.fourth-slide {
-				
+			&.fifth-slide {
+				background-position-x: 30%;
 			}
 		}
 
