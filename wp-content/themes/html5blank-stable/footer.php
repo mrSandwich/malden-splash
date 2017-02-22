@@ -3,6 +3,8 @@
 
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/jag_white.svg">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/nwm_white.svg">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/ADA.svg" class="compliance">
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/EHO.svg" class="compliance">
 
 			</footer>
 			<!-- /footer -->

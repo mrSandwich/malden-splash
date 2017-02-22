@@ -380,9 +380,13 @@ main {
 			float: right;
 			img {
 				width: 175px;
-				vertical-align: top;
-				&:last-of-type {
-					margin-left: 23px;
+				vertical-align: middle;
+				margin-left: 23px;
+				&.compliance {
+					width: 40px;
+				}
+				&:first-of-type {
+					margin-left: 0;
 				}
 
 			}
@@ -632,8 +636,13 @@ main {
 		padding: 30px 50px 50px;
 		img {
 			width: 130px;
-			&:first-of-type {
-				margin-right: 30px;
+			vertical-align: middle;
+			margin-right: 30px;
+			&:last-of-type {
+				margin-right: 0;
+			}
+			&.compliance {
+				width: 40px;
 			}
 		}
 		span {
@@ -775,8 +784,12 @@ main {
 
 @media only screen and (max-width:568px) {
 	.footer {
-		img:first-of-type {
+		img {
 			margin-bottom: 20px;
+			display: block;
+			&.compliance {
+				display: inline-block;
+			}
 		}
 	}
 
