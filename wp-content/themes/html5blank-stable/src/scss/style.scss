@@ -93,11 +93,11 @@ ul {
 		.branding-hero {
 			width: 65%;
 			margin: 24px 0 0 39px;
-			padding-bottom: 18%;
+			padding-bottom: 5%;
 			.logo {
 				width: 375px;
 				height: 95px;
-				margin-bottom: 143px;
+				margin-bottom: 65px;
 			}
 			.cta {
 				border-width: 3px;
@@ -144,21 +144,18 @@ ul {
 			}
 
 			span {
-				font: 35px NeuzeitGro;
+				font: 25px NeuzeitGro;
 				text-transform: uppercase;
 			}
 			h2 {
-				font: 90px NeuzeitGroBold;
-				line-height: 83px;
+				font: 60px NeuzeitGroBold;
+				line-height: 52px;
+   				margin: 10px 0 19px;
 				text-transform: uppercase;
-				margin: 29px 0 6px;
 			}
 			p {
-				font: 42px/50px 'EB Garamond';
+				font: 28px/36px 'EB Garamond';
 				margin: 0;
-				&:last-of-type {
-					margin-top: 15px;
-				}
 			}
 			.cta {
 				font: 24px NeuzeitGro;
@@ -377,11 +374,11 @@ main {
 
 		}
 		.form-branding {
-			float: right;
 			img {
 				width: 175px;
 				vertical-align: middle;
 				margin-left: 23px;
+				margin-top: 20px;
 				&.compliance {
 					width: 40px;
 				}
@@ -430,17 +427,7 @@ main {
     RESPONSIVE
 \*------------------------------------*/
 
-@media only screen and (max-width:1543px) {
-	main {
-		.form-area {
-			.form-branding {
-				img {
-					vertical-align: bottom;
-				}
-			}
-		}
-	}
-}
+
 @media only screen and (max-width:1350px) {
 
 	main .form-area form fieldset {
@@ -455,39 +442,6 @@ main {
 }
 @media only screen and (max-width:1400px) {
 	.header {
-		.slide-item {
-			.branding-hero {
-				padding-bottom: 10%;
-				.logo {
-					margin-bottom: 100px;
-				}
-				span {
-					font-size: 30px;
-				}
-				
-				h2 {
-					font-size: 70px;
-					line-height: 59px;
-   					 margin: 18px 0 19px;		
-				}
-				p {
-					font-size: 36px;
-					line-height: 42px;
-				}
-			}
-
-
-			&.second-slide {
-				
-			}
-			&.third-slide {
-
-			}
-			&.fourth-slide {
-				
-			}
-		}
-
 		.slick-dots {
 			right: 18px;
     		top: 56%;
@@ -499,12 +453,14 @@ main {
 				}
 			}
 		}
-
 	}
 }
 
 @media only screen and (max-width:1024px) {
-
+	main .form-area .form-branding img.compliance {
+		margin-top: 20px;
+   		margin-left: 0;
+	}
 }
 
 
