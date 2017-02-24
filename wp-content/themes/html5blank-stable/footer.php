@@ -26,14 +26,14 @@
                 // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
                 var mapOptions = {
              
-                    zoom: 12,
+                    zoom: 13,
                     zoomControl: false,
                     scaleControl: false,
                     gestureHandling: "none",
                     scrollwheel: false,
                     disableDefaultUI: true,
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(42.4271992,-71.074046),
+                    center: new google.maps.LatLng(42.4075117,-71.1076312),
 
                     // How you would like to style the map. 
                     // This is where you would paste any style found on Snazzy Maps.
@@ -325,7 +325,7 @@
                 var marker = new google.maps.Marker({
                     position: new google.maps.LatLng(42.4271992,-71.074046),
                     map: map,
-           			icon: "<?php echo get_template_directory_uri(); ?>/img/elements/mapmarker.svg"
+           			icon: "<?php echo get_template_directory_uri(); ?>/img/elements/mapmarker_sm.svg"
                 });
             }
 		</script>
