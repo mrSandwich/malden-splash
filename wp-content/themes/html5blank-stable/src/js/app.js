@@ -17,7 +17,7 @@
 				dots: true,
   				infinite: true,
   				arrows: false,
-  				// autoplay: true,
+  				autoplay: true,
   				autoplaySpeed: 3000
 			});
 
@@ -50,7 +50,6 @@
 			var select = ctx.querySelectorAll('select')[0],
 				hidden = ctx.getElementsByClassName('hidden-field')[0];
 
-			
 				if (select.value === "Social Media" || select.value === "Referral" || select.value === "Other") {
 					hidden.style.display = 'block';
 				} else {

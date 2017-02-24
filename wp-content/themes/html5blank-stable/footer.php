@@ -2,7 +2,6 @@
 			<footer class="footer" role="contentinfo">
 
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/jag_white.svg">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/nwm_white.svg">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/ADA.svg" class="compliance">
 				<img src="<?php echo get_template_directory_uri(); ?>/img/logos/EHO.svg" class="compliance">
 
@@ -34,7 +33,7 @@
                     scrollwheel: false,
                     disableDefaultUI: true,
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(42.4271992,-71.0740407),
+                    center: new google.maps.LatLng(42.4271992,-71.074046),
 
                     // How you would like to style the map. 
                     // This is where you would paste any style found on Snazzy Maps.
@@ -324,7 +323,7 @@
 
                 // Let's also add a marker while we're at it
                 var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(42.4269923,-71.0744369),
+                    position: new google.maps.LatLng(42.4271992,-71.074046),
                     map: map,
            			icon: "<?php echo get_template_directory_uri(); ?>/img/elements/mapmarker.svg"
                 });

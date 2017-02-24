@@ -125,7 +125,7 @@
 							<!-- /logo -->
 							<span>Arriving 2019</span>
 							<h2>Space to <br>stretch</h2>
-							<p>30,000 Square feet of custom amenities.</p>
+							<p>30,000 square feet of custom amenities.</p>
 							<p>None of the attitude.</p>
 							<a class="cta" href="">Stay In Touch</a>
 
