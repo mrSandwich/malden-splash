@@ -19,8 +19,10 @@
 			
 			<p>
 				<em>Located to make life easier</em><br>
-				<span>190 Pleasant St. Malden, MA 02148</span> <br>
 				Malden Center out the front door, the MBTA Orange Line and commuter rail across the street, and direct access to downtown Boston &mdash; enjoy!
+				 <br>
+				 <br>
+				<span>190 Pleasant St. Malden, MA 02148</span>
 			</p>
 			</div>
 			<div class="form-area">

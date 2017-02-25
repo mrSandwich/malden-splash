@@ -33,7 +33,7 @@
                     scrollwheel: false,
                     disableDefaultUI: true,
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(42.4075117,-71.1076312),
+                    center: new google.maps.LatLng(42.3961521,-71.0856978),
 
                     // How you would like to style the map. 
                     // This is where you would paste any style found on Snazzy Maps.
