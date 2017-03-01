@@ -358,7 +358,7 @@ main {
 					color: #000;
 				}
 			}
-			select, select option {
+			select {
 				-webkit-appearance: none;
     			-moz-appearance: none;
     			outline: none;
@@ -605,6 +605,18 @@ main {
 			display: block;
 			font: 18px 'NeuzeitGro';
 			color: #fff;
+		}
+	}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 767px) {
+	.header {
+		.slide-item {
+			&.third-slide {
+				background: url('../../img/slides/render_rev.jpg') no-repeat;
+				background-position-x: 68%;
+    			background-position-y: 9%;
+			}
 		}
 	}
 }
