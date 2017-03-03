@@ -42,7 +42,7 @@
 		<section class="map-container">
 			<a target="_blank" href="https://www.google.com/maps/place/190+Pleasant+St,+Malden,+MA+02148/@42.4271992,-71.074046,17z/data=!3m1!4b1!4m5!3m4!1s0x89e37160ead3c269:0xd92217e88ccf4a7e!8m2!3d42.4271992!4d-71.071852">
 				<div id="map">
-					
+					<img src="<?php echo get_template_directory_uri(); ?>/img/slides/map.jpg"> 
 				</div>
 			</a>
 			
